@@ -1,0 +1,14 @@
+.contact-list {
+  list-style: none;
+  padding: 0;
+  font-size: 1rem;
+}
+
+.contact-list li.selected {
+  background-color: #2196F3;
+  color: white;
+}
+
+.contact-list li {
+  text-transform: capitalize;
+}

@@ -1,0 +1,23 @@
+.flex-container {
+  display: flex;
+  height: 100vh;
+}
+
+.book section {
+  padding: 1rem;
+}
+
+.book section:first-of-type {
+  flex: 1;
+  border-right: 1px solid darkslategrey;
+  overflow-y: scroll;
+}
+
+.book section:last-of-type {
+  flex: 3;
+}
+
+.contact-form-container {
+  justify-content: center;
+  display: flex;
+}
